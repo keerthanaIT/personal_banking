@@ -1,0 +1,186 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.col-lg-4{
+  /* border: 1px solid red; */
+  flex: 0 0 26%;
+  max-width: 26%;
+  position: relative;
+  width: 100%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.col-lg-2{
+  
+  flex: 0 0 16%;
+  max-width: 16%;
+  position: relative;
+  width: 100%;
+  padding:2%;
+}
+.col-lg-6{
+
+  /* border: 1px solid red; */
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.w-50p{
+  width: 50%;
+}
+.w-55p{
+  width: 55%;
+}
+.btm-170{
+bottom: 170px;
+}
+.btm-235{
+  bottom: 235px;
+  }
+ul{
+  list-style-type: none;
+  width: 30%;
+}
+li{
+  padding: 8% 0%;
+}
+.display-in{
+display: inline;
+}
+.m-0{
+  margin: 0%;
+}
+.mt-3p{
+  margin-top: 3%;
+}
+.mt-25p{
+  margin-top: 25%;
+}
+.p-4p{
+  padding: 4% 6%;
+}
+.font-b{
+  font-weight: bolder;
+}
+
+
+.sidebar { grid-area: menu;
+  /* border: 2px solid red; */
+  /* padding: 20px 0; */
+}
+.overview { grid-area: main;
+  /* border: 2px solid red; */
+  /* padding: 20px 0; */
+  /* font-size: 30px; */
+}
+.user { grid-area: right; 
+  border: 2px solid red;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.sidebar-menu a {
+  color: #D9DAE0;
+  display: block;
+  padding: 5%;
+  text-decoration: none;
+  margin: 10% 0%;
+}
+
+.sidebar-menu a:hover {
+  /* background-color: #F5F6FF; */
+}
+
+.sidebar-menu a.active {
+  background-color: #F5F6FF;
+  color: #676576;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+
+.logo{
+  padding: 0% 5%;
+}
+.ov-title-p{
+  padding: 4% 0% 0% 5%;
+}
+/* tabs  s*/
+.rc-tabs-nav-list{
+  display: flex;
+}
+.rc-tabs-tab{
+  padding: 0% 6% 0% 0%;
+}
+.rc-tabs-nav-list  .rc-tabs-tab{
+  cursor: pointer;
+}
+.rc-tabs-tab-active div{
+  border-bottom: 3px solid #7A84EF;
+  width: 50%;
+
+}
+.card-button{
+background-color: #ffff;
+border: none;
+padding: 2%;
+border-radius: 5px;
+font-size: 14px;
+width: 15%;
+position: relative;
+top: 25px;
+}
+/* tabs e */
+.personal-bank-box{
+  background-color: #F5F6FF;
+  border-radius: 30px;
+  padding: 5%;
+  margin: 5%;
+  padding: 2% 5% 5% 5%;
+}
+.debit_card{
+  padding: 2% 4%;
+    color: #fff;
+    width: 50%;
+    right: 12%;
+  position: relative;
+  background: linear-gradient(to bottom, #9933ff 0%, #0000ff 100%);
+  border-radius: 20px !important;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+}
+.apexcharts-toolbar{
+  display: none !important;
+}
+.apexcharts-legend{
+  /* padding: 0% 15% !important; */
+}
+.apexcharts-legend div:first-child{
+  display: none;
+}
+.apexcharts-legend-series{
+  padding: 8% 0%;
+}
+.rc-progress-circle{
+  width: 10%;
+
+  padding: 0% 6%;
+}
+
+.rate{
+position: relative;
+bottom: 12px;
+}
