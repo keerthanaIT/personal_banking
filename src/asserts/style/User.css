@@ -1,0 +1,49 @@
+.user_img {
+	width: 30%;
+	border-radius: 50%;
+	border: 2px solid #7a84ef;
+	padding: 1%;
+}
+.col-lg-4 ul {
+	list-style-type: none;
+}
+.gt-lt-sybl {
+	border-radius: 9px !important;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+	font-size: 12px;
+	width: 35%;
+	padding: 10% 2%;
+	margin: 0%;
+	position: relative;
+	top: -30%;
+	left: 100%;
+}
+.rec-arrow-left,
+.rec-arrow-right {
+	display: none;
+}
+.user_icon_clr {
+	color: #6f78ee;
+	border-radius: 9px !important;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+	font-size: 18px;
+	width: 10%;
+	padding: 5% 5%;
+	position: relative;
+	top: 68px;
+	left: -50px;
+}
+.chart_badge {
+	border-radius: 25px !important;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+	font-size: 8px;
+	width: 5%;
+	padding: 3%;
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	background-color: #fff;
+}

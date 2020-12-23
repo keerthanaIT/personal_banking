@@ -1,0 +1,102 @@
+.service_bg {
+	left: 88% !important;
+	top: 10% !important;
+}
+.account_bg {
+	top: 44% !important;
+	left: 87% !important;
+}
+#piechart .apexcharts-pie-label {
+	display: none;
+}
+#piechart {
+	position: relative;
+	border: 2px solid #f5f6ff;
+	width: 249.812;
+	width: 12%;
+	background-color: #f5f6ff;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+	border-radius: 50%;
+	padding: 2%;
+	top: -117px;
+	left: 70%;
+}
+
+.card_convert {
+	width: 150px;
+	height: 55px;
+	background-color: #ffffff;
+	transform: rotate(-90deg);
+	border-radius: 20px;
+	position: relative;
+	top: 48px;
+	left: 50px;
+}
+
+/* tabs  s*/
+.rc-tabs-nav-list {
+	display: flex;
+}
+.rc-tabs-tab {
+	padding: 0% 6% 0% 0%;
+}
+.rc-tabs-nav-list .rc-tabs-tab {
+	cursor: pointer;
+}
+.rc-tabs-tab-active div {
+	border-bottom: 3px solid #7a84ef;
+	width: 50%;
+}
+.card-button {
+	background-color: #ffff;
+	border: none;
+	padding: 2%;
+	border-radius: 5px;
+	font-size: 14px;
+	width: 15%;
+	position: relative;
+	top: 25px;
+}
+/* tabs e */
+.personal-bank-box {
+	background-color: #f5f6ff;
+	border-radius: 30px;
+	padding: 5%;
+	margin: 5%;
+	padding: 2% 5% 5% 5%;
+}
+.debit_card {
+	display: flex;
+	padding: 2% 4%;
+	color: #fff;
+	width: 53%;
+	right: 12%;
+	position: relative;
+	background: linear-gradient(to bottom, #9933ff 0%, #0000ff 100%);
+	border-radius: 20px !important;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+}
+.db_card_txt_clr {
+	color: #a5a4ae;
+}
+
+.statistics_car_icon {
+	top: -35px !important;
+	left: 55px !important;
+	float: right !important;
+	color: #e44e42 !important;
+}
+.statistics_game_icon {
+	top: -35px !important;
+	left: 55px !important;
+	float: right !important;
+	color: #f7d132 !important;
+}
+.statistics_study_icon {
+	top: -35px !important;
+	left: 55px !important;
+	float: right !important;
+	color: #6573ed !important;
+}
