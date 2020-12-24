@@ -1,0 +1,14 @@
+.sidebar-menu a {
+	color: #d9dae0;
+	display: block;
+	padding: 5%;
+	text-decoration: none;
+	margin: 10% 0%;
+}
+
+.sidebar-menu a.active {
+	background-color: #f5f6ff;
+	color: #676576;
+	font-weight: bolder;
+	border-radius: 6px;
+}

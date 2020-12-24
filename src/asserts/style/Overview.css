@@ -6,31 +6,24 @@
 	top: 44% !important;
 	left: 87% !important;
 }
-#piechart .apexcharts-pie-label {
+#piechart .apexcharts-pie-label,#piechart .apexcharts-legend {
 	display: none;
 }
 #piechart {
-	position: relative;
-	border: 2px solid #f5f6ff;
-	width: 249.812;
-	width: 12%;
 	background-color: #f5f6ff;
-	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
-		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
-	border-radius: 50%;
 	padding: 2%;
-	top: -117px;
+	top: -108px;
 	left: 70%;
 }
-
+#piechart .apexcharts-canvas {
+	right: 20px;
+	top: 2px;
+}
 .card_convert {
 	width: 150px;
 	height: 55px;
-	background-color: #ffffff;
 	transform: rotate(-90deg);
-	border-radius: 20px;
-	position: relative;
-	top: 48px;
+	top: 58px;
 	left: 50px;
 }
 
@@ -40,6 +33,8 @@
 }
 .rc-tabs-tab {
 	padding: 0% 6% 0% 0%;
+	color: #d9dae0;
+	font-size: 14px;
 }
 .rc-tabs-nav-list .rc-tabs-tab {
 	cursor: pointer;
@@ -47,15 +42,12 @@
 .rc-tabs-tab-active div {
 	border-bottom: 3px solid #7a84ef;
 	width: 50%;
+	color: #3B384D;
+	font-weight:bold;
 }
 .card-button {
-	background-color: #ffff;
 	border: none;
 	padding: 2%;
-	border-radius: 5px;
-	font-size: 14px;
-	width: 15%;
-	position: relative;
 	top: 25px;
 }
 /* tabs e */
@@ -63,12 +55,12 @@
 	background-color: #f5f6ff;
 	border-radius: 30px;
 	padding: 5%;
-	margin: 5%;
+	margin: 5% 1% 0% 5%;
 	padding: 2% 5% 5% 5%;
 }
 .debit_card {
 	display: flex;
-	padding: 2% 4%;
+	padding: 0% 4%;
 	color: #fff;
 	width: 53%;
 	right: 12%;
@@ -87,16 +79,73 @@
 	left: 55px !important;
 	float: right !important;
 	color: #e44e42 !important;
+	width: 12% !important;
 }
 .statistics_game_icon {
 	top: -35px !important;
 	left: 55px !important;
 	float: right !important;
 	color: #f7d132 !important;
+	width: 12% !important;
 }
 .statistics_study_icon {
 	top: -35px !important;
 	left: 55px !important;
 	float: right !important;
 	color: #6573ed !important;
+	width: 12% !important;
+}
+.calender-icon{
+	border-radius: 25px !important;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    font-size: 12px;
+		position: relative;
+    left: 8%;
+    padding: 5%;
+    width: 5%;
+
+}
+
+.rc-progress-circle {
+	width: 10%;
+	padding: 0% 6%;
+}
+
+.rate {
+	position: relative;
+	bottom: 12px;
+}
+
+.apexcharts-toolbar,.apexcharts-legend div:first-child  {
+	display: none !important;
+}
+.apexcharts-legend-series {
+	padding: 8% 0%;
+}
+.debit-card-icon{
+	top: 10%;
+    left: 70%;
+    padding: 10%;
+    font-size: 12px;
+    border-radius: 25px;
+		background-color: #F4F5FF;
+		width: 5%;
+    position: absolute;
+}
+#asmchart .apexcharts-legend{
+	padding:0% 0% 0% 10% ;
+}
+.rate-in-aro_1{
+	transform: rotate(130deg);
+	position: relative;
+	top: -14px;
+	left: -95px;
+	font-size: 12px;
+}
+.rate-in-aro_2{
+	transform: rotate(-50deg);
+	position: relative;
+	top: -14px;
+	left: -95px;
+	font-size: 12px;
 }

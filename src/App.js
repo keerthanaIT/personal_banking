@@ -1,15 +1,10 @@
-import SideBar from './component/SideBar';
-import Overview from './component/Overview';
-import User from './component/User';
-
 import '../src/asserts/style/style.css';
+import SideBar from './component/Sidebar/SideBar';
 
 function App() {
   return (
-    <div className="row">
+    <div >
       <SideBar />
-      <Overview />
-      <User />
      </div>
   );
 }

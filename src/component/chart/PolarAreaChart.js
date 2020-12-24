@@ -1,10 +1,9 @@
 import React from 'react';
-import '../../asserts/style/Overview.css';
 
 import ReactApexChart from 'react-apexcharts';
 import PieChart from './PieChart';
 
-class AsmChart extends React.Component {
+class PolarAreaChart extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -20,11 +19,11 @@ class AsmChart extends React.Component {
 				//   opacity: 1
 				// },
 				fill: {
-					colors: [ '#E44E42', '#F7D133', '#F5F6FF', '#72D5AC' ]
+					colors: ['#F7D133','#72D5AC', '#F5F6FF', '#E44E42']
 				},
 				stroke: {
 					width: 1,
-					colors: [ '#E44E42', '#F7D133', '#F5F6FF', '#72D5AC' ]
+					colors: ['#F7D133','#72D5AC', '#F5F6FF', '#E44E42']
 				},
 				yaxis: {
 					show: false
@@ -39,13 +38,13 @@ class AsmChart extends React.Component {
 						}
 					}
 				},
-				theme: {
-					monochrome: {
-						// enabled: true,
-						// shadeTo: 'light',
-						// shadeIntensity: 0.6
-					}
-				}
+				// theme: {
+				// 	monochrome: {
+				// 		enabled: true,
+				// 		shadeTo: 'light',
+				// 		shadeIntensity: 0.6
+				// 	}
+				// }
 			}
 		};
 	}
@@ -53,7 +52,7 @@ class AsmChart extends React.Component {
 	render() {
 		return (
 			<div>
-				<div id="chart" className="float-right w-50p btm-170">
+				<div id="asmchart" className="float-right w-50p btm-170">
 					<ReactApexChart
 						options={this.state.options}
 						series={this.state.series}
@@ -71,4 +70,4 @@ class AsmChart extends React.Component {
 		);
 	}
 }
-export default AsmChart;
+export default PolarAreaChart;
