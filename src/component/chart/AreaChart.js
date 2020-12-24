@@ -54,11 +54,11 @@ class AreaChart extends React.Component {
 				/>
 				<span className="display-in">
 					<Circle percent="65" trailWidth="15" strokeWidth="15" strokeColor="#6573ED" />
-					<span className="rate font-b dark-gray-color fs-14"><i class="fas fa-dollar-sign"></i>840.00</span>
-					<i class="fas fa-long-arrow-alt-right rate-in-aro_1"></i>
+					<span className="value-in-dollar position-r font-b dark-gray-color fs-14"><i className="fas fa-dollar-sign"></i>840.00</span>
+					<i className="fas fa-long-arrow-alt-right arrow-down arrow-du-lt fs-12 position-r"></i>
 					<Circle percent="66" trailWidth="12" strokeWidth="12" strokeColor="#A2EBD6" />
-					<span className="rate font-b light-gray-color fs-14"><i class="fas fa-dollar-sign"></i>460.00</span>
-					<i class="fas fa-long-arrow-alt-right light-gray-color rate-in-aro_2"></i>
+					<span className="value-in-dollar position-r font-b light-gray-color fs-14"><i className="fas fa-dollar-sign"></i>460.00</span>
+					<i className="fas fa-long-arrow-alt-right light-gray-color arrow-du-lt arrow-up fs-12 position-r"></i>
 				</span>
 			</div>
 		);

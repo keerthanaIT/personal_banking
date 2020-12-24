@@ -14,7 +14,7 @@ class PieChart extends React.Component {
 					type: 'pie'
 				},
 				markers: {
-					shape: <i class="fas fa-diamond" />
+					shape: <i className="fas fa-diamond" />
 				},
 				responsive: [
 					{
@@ -35,7 +35,7 @@ class PieChart extends React.Component {
 
 	render() {
 		return (
-			<div id="piechart" className="position-r 	box-shadow w-15p br-50p p-2p">
+			<div id="piechart" className="position-r p-r-0 box-shadow w-15p br-50p p-2p">
 				<ReactApexChart options={this.state.options} series={this.state.series} type="pie" width={80} />
 			</div>
 		);

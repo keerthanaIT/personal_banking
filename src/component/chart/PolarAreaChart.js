@@ -61,9 +61,9 @@ class PolarAreaChart extends React.Component {
 						height={250}
 					/>
 
-					<p className="chart_badge">60%</p>
-					<p className="chart_badge service_bg">22%</p>
-					<p className="chart_badge account_bg">18%</p>
+					<p className="chart_badge bg-white position-a box-shadow w-5p br-25p fs-8 ">60%</p>
+					<p className="chart_badge service_bg bg-white position-a box-shadow w-5p br-25p fs-8">22%</p>
+					<p className="chart_badge account_bg bg-white position-a box-shadow w-5p br-25p fs-8">18%</p>
 					<PieChart />
 				</div>
 			</div>

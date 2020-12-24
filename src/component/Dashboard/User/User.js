@@ -13,20 +13,20 @@ class User extends React.Component {
 				<h4 className="dark-gray-color fs-14">John Gnabry</h4>
 				<ul className="display-flex">
 					<li className="w-40p m-0-5p">
-						<i class="fas fa-money-bill light-gray-color" />
+						<i className="fas fa-money-bill light-gray-color" />
 						<Line percent="100" trailWidth="4" strokeWidth="4" strokeColor="#E44E42" />
 
-						<p className="gt-lt-sybl font-b"> &lt; &gt;</p>
+						<p className="gt-lt-sybl w-35p fs-10 position-r m-0 box-shadow font-b"> &lt; &gt;</p>
 					</li>
 
 					<li className="w-40p m-0-5p">
-						<i class="fas fa-shopping-bag light-gray-color" />
+						<i className="fas fa-shopping-bag light-gray-color" />
 						<Line percent="100" trailWidth="4" strokeWidth="4" strokeColor="#F7D132" />
 
-						<p className="gt-lt-sybl font-b"> &lt; &gt;</p>
+						<p className="gt-lt-sybl w-35p fs-10 position-r m-0 box-shadow font-b"> &lt; &gt;</p>
 					</li>
 					<li className="w-40p m-0-5p">
-						<i class="fas fa-car-side light-gray-color" />
+						<i className="fas fa-car-side light-gray-color" />
 						<Line percent="100" trailWidth="4" strokeWidth="4" strokeColor="#6573ED" />
 					</li>
 				</ul>
@@ -34,12 +34,12 @@ class User extends React.Component {
 					<div className="debit_card box-shadow small-debit-card p-0-5 display-flex clr-white position-r" />
 					<p className="light-gray-color fs-14 m-0 font-b">
 						Main Card <br />
-						<span className="dark-gray-color fs-12 ac_no ">***3930</span>
+						<span className="dark-gray-color fs-12 ac_no position-r">***3930</span>
 					</p>
 
-					<span class="float-right display-in w-30p ">
-						<span class="light-gray-color fs-14 ">
-							<i class="fas fa-long-arrow-alt-right w-5p icon-color br-25 box-shadow position-r calender-icon p-5p fs-12 float-right p-10-15" />
+					<span className="float-right display-in w-30p ">
+						<span className="light-gray-color fs-14 ">
+							<i className="fas fa-long-arrow-alt-right w-5p icon-color br-25p box-shadow position-r calender-icon p-5p fs-12 float-right p-10-15" />
 						</span>
 					</span>
 				</span>

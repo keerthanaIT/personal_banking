@@ -1,10 +1,23 @@
 .service_bg {
-	left: 88% !important;
+	left: 85% !important;
 	top: 10% !important;
 }
 .account_bg {
 	top: 44% !important;
-	left: 87% !important;
+	left: 82% !important;
+}
+
+#areachart .apexcharts-legend {
+	padding: 0% 0% 0% 10%;
+}
+#polarchart .apexcharts-legend{
+	left: 30px !important;
+}
+.apexcharts-legend-text {
+	font-weight: bolder !important;
+}
+.apexcharts-legend-series {
+	padding: 8% 0%;
 }
 #piechart .apexcharts-pie-label,
 #piechart .apexcharts-legend,
@@ -83,40 +96,21 @@
 	padding: 0% 6%;
 }
 
-.rate {
-	position: relative;
+.value-in-dollar {
 	bottom: 12px;
-}
-.apexcharts-legend-series {
-	padding: 8% 0%;
 }
 .debit-card-icon {
 	top: 10%;
 	left: 70%;
-	padding: 10%;
-	font-size: 12px;
-	border-radius: 25px;
 	background-color: #f4f5ff;
-	width: 5%;
-	position: absolute;
 }
-#areachart .apexcharts-legend {
-	padding: 0% 0% 0% 10%;
+.arrow-du-lt{
+	top: -14px;
+	left: -95px;
 }
-.rate-in-aro_1 {
+.arrow-down {
 	transform: rotate(130deg);
-	position: relative;
-	top: -14px;
-	left: -95px;
-	font-size: 12px;
 }
-.rate-in-aro_2 {
+.arrow-up {
 	transform: rotate(-50deg);
-	position: relative;
-	top: -14px;
-	left: -95px;
-	font-size: 12px;
-}
-.apexcharts-legend-text {
-	font-weight: bolder !important;
 }

@@ -13,7 +13,7 @@ class Overview extends React.Component {
 					<span className="float-right display-in w-25p">
 						<span className="light-gray-color fs-14 ">
 							25 August, 2020
-							<i class="fas fa-calendar-day icon-color br-25p calender-icon w-5p box-shadow fs-12 p-5p position-r" />
+							<i className="fas fa-calendar-day icon-color br-25p calender-icon w-8p box-shadow fs-12 p-5p position-r" />
 						</span>
 					</span>
 				</h2>

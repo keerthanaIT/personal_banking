@@ -17,7 +17,7 @@ class PersonalBanking extends React.Component {
 							<div className="debit_card box-shadow p-0-5 display-flex clr-white position-r">
 								<span>
 									<p className="fs-12 font-b pb-30p light-gray-color">Debit Card</p>
-									<h2><i class="fas fa-dollar-sign"></i> 13801.23</h2>
+									<h2><i className="fas fa-dollar-sign"></i> 13801.23</h2>
 									<h6 className="light-gray-color">3789 **** **** 3930</h6>
 								</span>
 								<div className="card_convert br-20p bg-white position-r db_card_txt_clr">
@@ -25,8 +25,8 @@ class PersonalBanking extends React.Component {
 										<span className="p-0-10p">&lt;</span>
 										<span>Convert</span>
 
-										<span className="debit-card-icon box-shadow">
-											<i class="fas fa-exchange-alt" />
+										<span className="debit-card-icon box-shadow fs-12 br-25p p-10p w-5p position-a">
+											<i className="fas fa-exchange-alt" />
 										</span>
 									</h5>
 								</div>

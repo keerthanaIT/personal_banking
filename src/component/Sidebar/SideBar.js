@@ -33,9 +33,9 @@ class SideBar extends React.Component {
 							<Link to="/accounts">Accounts</Link>
 							<img className="p-4-6p" src={TransactionIcon} alt="TransactionIcon" align="left" />
 							<Link to="/transaction">Transactions</Link>
-							<i class="fas fa-shield-alt float-left light-gray-color p-4-6p"></i>
+							<i className="fas fa-shield-alt float-left light-gray-color p-4-6p"></i>
 							<Link to="/secure">Secure</Link>
-							<i class="fas fa-cog float-left light-gray-color p-4-6p"></i>
+							<i className="fas fa-cog float-left light-gray-color p-4-6p"></i>
 							<Link to="/settings">Settings</Link>
 							<span className="light-gray-color fs-14">
 								<h3 className="mt-100p fs-14">Banking</h3>

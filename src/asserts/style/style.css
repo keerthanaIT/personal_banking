@@ -29,6 +29,9 @@ body {
 .position-r {
 	position: relative;
 }
+.position-a{
+	position: absolute;
+}
 .bg-white {
 	background-color: #ffffff;
 }
@@ -53,6 +56,12 @@ body {
 .icon-color {
 	color: #7d7b8a;
 }
+.fs-8{
+	font-size: 8px;
+}
+.fs-10{
+	font-size: 10px;
+}
 .fs-12 {
 	font-size: 14px;
 }
@@ -61,6 +70,9 @@ body {
 }
 .fs-16 {
 	font-size: 16px;
+}
+.fs-18{
+	font-size: 18px;
 }
 .float-right {
 	float: right !important;
@@ -98,6 +110,9 @@ body {
 .w-5p {
 	width: 5%;
 }
+.w-8p {
+width: 8%;
+}
 .w-10p {
 	width: 10%;
 }
@@ -109,6 +124,9 @@ body {
 }
 .w-25p {
 	width: 25%;
+}
+.w-35p{
+	width: 35%;
 }
 .w-30p {
 	width: 30%;
@@ -146,6 +164,9 @@ body {
 .p-5p {
 	padding: 5%;
 }
+.p-10p{
+	padding: 10%;
+}
 .p-2p {
 	padding: 2%;
 }
@@ -160,6 +181,9 @@ body {
 }
 .pb-30p {
 	padding-bottom: 30%;
+}
+.p-r-0{
+	padding-right: 0px;
 }
 .pl-5p {
 	padding-left: 5%;
