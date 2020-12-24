@@ -1,4 +1,4 @@
-<h3>Personal banking</hr>
+<h3>Personal banking</h3>
 
 
 To run the application: 
