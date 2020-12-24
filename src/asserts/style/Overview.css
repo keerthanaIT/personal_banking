@@ -149,3 +149,6 @@
 	left: -95px;
 	font-size: 12px;
 }
+.apexcharts-legend-text{
+	font-weight: bolder !important;
+}
