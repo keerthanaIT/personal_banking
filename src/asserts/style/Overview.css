@@ -6,8 +6,11 @@
 	top: 44% !important;
 	left: 87% !important;
 }
-#piechart .apexcharts-pie-label,#piechart .apexcharts-legend {
-	display: none;
+#piechart .apexcharts-pie-label,
+#piechart .apexcharts-legend,
+.apexcharts-toolbar,
+.apexcharts-legend div:first-child {
+	display: none !important;
 }
 #piechart {
 	background-color: #f5f6ff;
@@ -42,68 +45,39 @@
 .rc-tabs-tab-active div {
 	border-bottom: 3px solid #7a84ef;
 	width: 50%;
-	color: #3B384D;
-	font-weight:bold;
+	color: #3b384d;
+	font-weight: bold;
 }
 .card-button {
 	border: none;
-	padding: 2%;
 	top: 25px;
 }
 /* tabs e */
 .personal-bank-box {
 	background-color: #f5f6ff;
-	border-radius: 30px;
-	padding: 5%;
-	margin: 5% 1% 0% 5%;
+	margin: 5% 0% 0% 5%;
 	padding: 2% 5% 5% 5%;
 }
 .debit_card {
-	display: flex;
 	padding: 0% 4%;
-	color: #fff;
 	width: 53%;
 	right: 12%;
-	position: relative;
 	background: linear-gradient(to bottom, #9933ff 0%, #0000ff 100%);
 	border-radius: 20px !important;
-	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
-		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
 }
 .db_card_txt_clr {
 	color: #a5a4ae;
 }
 
-.statistics_car_icon {
-	top: -35px !important;
-	left: 55px !important;
-	float: right !important;
-	color: #e44e42 !important;
-	width: 12% !important;
-}
-.statistics_game_icon {
-	top: -35px !important;
-	left: 55px !important;
-	float: right !important;
-	color: #f7d132 !important;
-	width: 12% !important;
-}
+.statistics_car_icon,
+.statistics_game_icon,
 .statistics_study_icon {
 	top: -35px !important;
 	left: 55px !important;
-	float: right !important;
-	color: #6573ed !important;
-	width: 12% !important;
 }
-.calender-icon{
+.calender-icon {
 	border-radius: 25px !important;
-    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
-    font-size: 12px;
-		position: relative;
-    left: 8%;
-    padding: 5%;
-    width: 5%;
-
+	left: 8%;
 }
 
 .rc-progress-circle {
@@ -115,40 +89,36 @@
 	position: relative;
 	bottom: 12px;
 }
-
-.apexcharts-toolbar,.apexcharts-legend div:first-child  {
-	display: none !important;
-}
 .apexcharts-legend-series {
 	padding: 8% 0%;
 }
-.debit-card-icon{
+.debit-card-icon {
 	top: 10%;
-    left: 70%;
-    padding: 10%;
-    font-size: 12px;
-    border-radius: 25px;
-		background-color: #F4F5FF;
-		width: 5%;
-    position: absolute;
+	left: 70%;
+	padding: 10%;
+	font-size: 12px;
+	border-radius: 25px;
+	background-color: #f4f5ff;
+	width: 5%;
+	position: absolute;
 }
-#asmchart .apexcharts-legend{
-	padding:0% 0% 0% 10% ;
+#asmchart .apexcharts-legend {
+	padding: 0% 0% 0% 10%;
 }
-.rate-in-aro_1{
+.rate-in-aro_1 {
 	transform: rotate(130deg);
 	position: relative;
 	top: -14px;
 	left: -95px;
 	font-size: 12px;
 }
-.rate-in-aro_2{
+.rate-in-aro_2 {
 	transform: rotate(-50deg);
 	position: relative;
 	top: -14px;
 	left: -95px;
 	font-size: 12px;
 }
-.apexcharts-legend-text{
+.apexcharts-legend-text {
 	font-weight: bolder !important;
 }

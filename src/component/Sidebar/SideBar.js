@@ -23,47 +23,47 @@ class SideBar extends React.Component {
 		return (
 			<Router>
 				<div className="row">
-				<div className=" col-lg-2 w-100p position-r">
-				<img className="p-0-5" src={logoImg} alt="logo" align="left" />
-				<h3 className="mt-3p font-b dark-gray-color">DTS.</h3>
-				<div className="sidebar-menu mt-25p fs-14">
-					<img className="p-4-6p" src={DashboardIcon} alt="dashboard_icon" align="left" />
-					<Link to="/"  className="active mt-3p">Dashboard</Link>
-					<img className="p-4-6p" src={AccountsIcon} alt="AccountsIcon" align="left" />
-					<Link to="/accounts">Accounts</Link>
-					<img className="p-4-6p" src={TransactionIcon} alt="TransactionIcon" align="left" />
-					<Link to="/transaction">Transactions</Link>
-					<i class="fas fa-shield-alt float-left light-gray-color p-4-6p"></i>
-					<Link to="/secure">Secure</Link>
-					<i class="fas fa-cog float-left light-gray-color p-4-6p"></i>
-					<Link to="/settings">Settings</Link>
-					<span className="light-gray-color fs-14">
-					<h3 className="mt-100p fs-14">Banking</h3>
-					<h6 className="m-0">@2020 stag.</h6><h6 className="m-0">All rights reserved</h6>
+					<div className=" col-lg-2 w-100p position-r">
+						<img className="p-0-5" src={logoImg} alt="logo" align="left" />
+						<h3 className="mt-3p font-b dark-gray-color">DTS.</h3>
+						<div className="sidebar-menu mt-25p fs-14">
+							<img className="p-4-6p" src={DashboardIcon} alt="dashboard_icon" align="left" />
+							<Link to="/" className="active mt-3p">Dashboard</Link>
+							<img className="p-4-6p" src={AccountsIcon} alt="AccountsIcon" align="left" />
+							<Link to="/accounts">Accounts</Link>
+							<img className="p-4-6p" src={TransactionIcon} alt="TransactionIcon" align="left" />
+							<Link to="/transaction">Transactions</Link>
+							<i class="fas fa-shield-alt float-left light-gray-color p-4-6p"></i>
+							<Link to="/secure">Secure</Link>
+							<i class="fas fa-cog float-left light-gray-color p-4-6p"></i>
+							<Link to="/settings">Settings</Link>
+							<span className="light-gray-color fs-14">
+								<h3 className="mt-100p fs-14">Banking</h3>
+								<h6 className="m-0">@2020 stag.</h6><h6 className="m-0">All rights reserved</h6>
 
-					</span>
+							</span>
+						</div>
+					</div>
+
+					<Switch>
+						<Route exact path="/">
+							<Dashboard />
+						</Route>
+						<Route path="/transaction">
+							<Transaction />
+						</Route>
+						<Route path="/accounts">
+							<Accounts />
+						</Route>
+						<Route path="/secure">
+							<Secure />
+						</Route>
+						<Route path="/settings">
+							<Setting />
+						</Route>
+					</Switch>
 				</div>
-         </div>
-      
-				<Switch>
-             <Route exact path="/">
-               <Dashboard />
-             </Route>
-             <Route path="/transaction">
-               <Transaction />
-             </Route>
-             <Route path="/accounts">
-               <Accounts />
-             </Route>
-						 <Route path="/secure">
-               <Secure />
-             </Route>
-						 <Route path="/settings">
-               <Setting />
-             </Route>
-           </Switch>
-				</div>
-			 </Router>
+			</Router>
 		);
 	}
 }

@@ -7,7 +7,7 @@ class PieChart extends React.Component {
 		super(props);
 
 		this.state = {
-			series: [ 30, 70 ],
+			series: [30, 70],
 			options: {
 				chart: {
 					width: 200,

@@ -26,32 +26,44 @@ body {
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
 }
-.position-r{
+.position-r {
 	position: relative;
 }
-.bg-white{
+.bg-white {
 	background-color: #ffffff;
 }
-.light-gray-color{
-  color: #d9dae0;
+.clr-yello {
+	color: #f7d132 !important;
 }
-.dark-gray-color{
-	color: #3B384D;
+.clr-white {
+	color: #ffffff;
 }
-.icon-color{
-  color:#7d7b8a;
+.clr-red {
+	color: #e44e42 !important;
 }
-.fs-12{
+.light-gray-color {
+	color: #d9dae0;
+}
+.dark-gray-color {
+	color: #3b384d;
+}
+.clr-violet {
+	color: #6573ed !important;
+}
+.icon-color {
+	color: #7d7b8a;
+}
+.fs-12 {
 	font-size: 14px;
 }
-.fs-14{
+.fs-14 {
 	font-size: 14px;
 }
-.fs-16{
+.fs-16 {
 	font-size: 16px;
 }
 .float-right {
-	float: right;
+	float: right !important;
 }
 .float-left {
 	float: left;
@@ -68,16 +80,25 @@ body {
 .display-flex {
 	display: flex;
 }
-.br-5p{
+.br-5p {
 	border-radius: 5px;
 }
-.br-20p{
+.br-20p {
 	border-radius: 20px;
 }
-.br-50p{
+.br-30px {
+	border-radius: 30px;
+}
+.br-50p {
 	border-radius: 50%;
 }
-.w-15p{
+.w-5p {
+	width: 5%;
+}
+.w-12p {
+	width: 12% !important;
+}
+.w-15p {
 	width: 15%;
 }
 .w-30p {
@@ -92,7 +113,7 @@ body {
 .w-55p {
 	width: 55%;
 }
-.w-100p{
+.w-100p {
 	width: 100%;
 }
 .m-0 {
@@ -104,28 +125,34 @@ body {
 .mt-3p {
 	margin-top: 3%;
 }
-.mt-12p{
+.mt-12p {
 	margin-top: 12%;
 }
 .mt-25p {
 	margin-top: 25%;
 }
-.mt-100p{
+.mt-100p {
 	margin-top: 100%;
 }
-.p-0-10p{
+.p-5p {
+	padding: 5%;
+}
+.p-2p {
+	padding: 2%;
+}
+.p-0-10p {
 	padding: 0% 10%;
 }
-.p-0-5{
+.p-0-5 {
 	padding: 0% 5%;
 }
-.p-10-15{
+.p-10-15 {
 	padding: 10% 15% !important;
 }
-.pb-30p{
+.pb-30p {
 	padding-bottom: 30%;
 }
-.pl-5p{
+.pl-5p {
 	padding-left: 5%;
 }
 .p-4-6p {
@@ -140,8 +167,9 @@ body {
 .font-b {
 	font-weight: bolder;
 }
-.box-shadow{
-	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+.box-shadow {
+	box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+		0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
 }
 .btm-170 {
 	bottom: 170px;

@@ -6,17 +6,17 @@ import CarousalItem from './CarousalItem';
 class Carousal extends React.Component {
 	render() {
 		return (
-			<Carousel enableAutoPlay autoPlaySpeed={5500} >
-			<Item>
-		<CarousalItem />
-			</Item>
-			<Item>
-			<CarousalItem />
-			</Item>
-			<Item>
-			<CarousalItem />
+			<Carousel enableAutoPlay autoPlaySpeed={5500}>
+				<Item>
+					<CarousalItem />
 				</Item>
-		</Carousel>
+				<Item>
+					<CarousalItem />
+				</Item>
+				<Item>
+					<CarousalItem />
+				</Item>
+			</Carousel>
 		);
 	}
 }

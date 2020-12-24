@@ -47,24 +47,24 @@
 	left: 55%;
 	background-color: #fff;
 }
-.small-debit-card{
+.small-debit-card {
 	width: 8%;
-    margin-left: 28%;
-		border-radius: 7px !important;
-		height: 40px;
+	margin-left: 28%;
+	border-radius: 7px !important;
+	height: 40px;
 }
-.ac_no{
+.ac_no {
 	position: relative;
-  top: 6px;
+	top: 6px;
 }
-.rec-carousel{
-height: 300px !important;
+.rec-carousel {
+	height: 300px !important;
 }
-.rec .rec-dot_active{
+.rec .rec-dot_active {
 	box-shadow: none !important;
 	background-color: #6f78ee !important;
 }
-.rec-dot{
+.rec-dot {
 	box-shadow: none !important;
 	background-color: #d9dae0 !important;
 }

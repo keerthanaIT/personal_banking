@@ -8,22 +8,22 @@ class PolarAreaChart extends React.Component {
 		super(props);
 
 		this.state = {
-			series: [ 42, 35, 52, 50 ],
+			series: [42, 35, 52, 50],
 			options: {
 				chart: {
 					width: 300,
 					type: 'polarArea'
 				},
-				labels: [ '', 'Accounts', 'Services', 'Markets' ],
+				labels: ['', 'Accounts', 'Services', 'Markets'],
 				// fill: {
 				//   opacity: 1
 				// },
 				fill: {
-					colors: ['#F7D133','#72D5AC', '#F5F6FF', '#E44E42']
+					colors: ['#F7D133', '#72D5AC', '#F5F6FF', '#E44E42']
 				},
 				stroke: {
 					width: 1,
-					colors: ['#F7D133','#72D5AC', '#F5F6FF', '#E44E42']
+					colors: ['#F7D133', '#72D5AC', '#F5F6FF', '#E44E42']
 				},
 				yaxis: {
 					show: false
