@@ -39,7 +39,7 @@ class User extends React.Component {
 
 					<span class="float-right display-in w-30p ">
 						<span class="light-gray-color fs-14 ">
-							<i class="fas fa-long-arrow-alt-right w-5p icon-color box-shadow position-r calender-icon p-5p fs-12 float-right p-10-15" />
+							<i class="fas fa-long-arrow-alt-right w-5p icon-color br-25 box-shadow position-r calender-icon p-5p fs-12 float-right p-10-15" />
 						</span>
 					</span>
 				</span>

@@ -52,7 +52,7 @@ class PolarAreaChart extends React.Component {
 	render() {
 		return (
 			<div>
-				<div id="asmchart" className="float-right w-50p btm-170">
+				<div id="polarchart" className="float-right w-50p btm-170">
 					<ReactApexChart
 						options={this.state.options}
 						series={this.state.series}

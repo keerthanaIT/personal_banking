@@ -2,7 +2,7 @@ import React from 'react';
 import { Circle } from 'rc-progress';
 import ReactApexChart from 'react-apexcharts';
 
-class PieChart extends React.Component {
+class AreaChart extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -44,7 +44,7 @@ class PieChart extends React.Component {
 
 	render() {
 		return (
-			<div id="chart" className="float-right w-55p btm-275">
+			<div id="areachart" className="float-right w-55p btm-275">
 				<ReactApexChart
 					options={this.state.options}
 					series={this.state.series}
@@ -65,4 +65,4 @@ class PieChart extends React.Component {
 	}
 }
 
-export default PieChart;
+export default AreaChart;

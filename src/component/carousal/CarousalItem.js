@@ -1,6 +1,4 @@
 import React from 'react';
-import Carousel from 'react-elastic-carousel';
-import Item from './Item';
 
 class CarousalItem extends React.Component {
 	render() {
